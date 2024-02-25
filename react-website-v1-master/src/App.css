@@ -5,10 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,29 +13,31 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('./images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
+.products{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('./images/img-1.jpg');
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
+  overflow-x: hidden;
   color: #fff;
-  font-size: 100px;
+  font-size: 1rem;
 }
 
-.sign-up {
-  background-image: url('./images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.products > h1 {
+  text-align: center ;
+  align-items:flex-start ;
+  display: inline-block;
   color: #fff;
-  font-size: 100px;
+  font-size: 75px;
+}
+
+.products > desc {
+  text-align: justify;
+  align-items:justify;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
 }

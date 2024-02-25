@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -13,22 +12,15 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>Memeber Names</Link>
-            <Link to='/'>Abhinav Umesh</Link>
-            <Link to='/'>Ram Narayan</Link>
-            <Link to='/'>Ayush Mukherjee</Link>
-            <Link to='/'>Aditi Roy</Link>
+            <h2>SENTINELS</h2>
+            <Link to={{ pathname: "https://in.linkedin.com/in/abhinav-umesh-257658273" }} target="_blank"> Abhinav Umesh </Link>
+            <Link to={{ pathname: "https://www.linkedin.com/in/a-ramnarayan-839a5b25a/" }} target="_blank"> Ram Narayan </Link>
+            <Link to={{ pathname: "https://www.linkedin.com/in/ayush-mukherjee-4a87b42b6/" }} target="_blank" > Ayush Mukherjee </Link>
+            <Link to={{ pathname: "https://www.linkedin.com/in/aditi-roy-394246277/" }} target="_blank"> Aditi Roy </Link>
           </div>
         </div>
-      </div>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              SENTINELS
-            </Link>
-          </div>
-          
-        </div>
+      </div>  
+    </div>
   );
 }
 

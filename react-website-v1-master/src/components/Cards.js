@@ -13,13 +13,13 @@ function Cards() {
               src='images/diagnosis.jpg'
               text='Get AI-powered insights, empower your healthcare journey'
               label='Diagnosis'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/symptoms.jpg'
               text='Get symptom insights, understand your options, then talk to a doctor'
               label='Insights'
-              path='/services'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,7 +27,7 @@ function Cards() {
               src='images/ptsd1.jpg'
               text='From PTSD support to general health inquiries, talk to AI, get informed'
               label='Inquiries'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/app.jpg'
@@ -39,7 +39,7 @@ function Cards() {
               src='images/access.jpg'
               text='No matter your location, get informed, find resources, and navigate your health'
               label='Access'
-              path='/sign-up'
+              path='/products'
             />
           </ul>
         </div>
