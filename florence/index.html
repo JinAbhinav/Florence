@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script crossorigin="anonymous" src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+        #title {
+            font-family: "Water Brush", cursive;
+            font-size: 64px;
+            text-align: center;
+            margin-top: 15px;
+            color: rgb(255, 255, 255);
+            font-smooth: always;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            background: url("./553632.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #webchat {
+            display: flex;
+            height: 75%;
+            width: 75%;
+            position: absolute;
+            border-radius: 25px;
+            top: 12%;
+            left: 12%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">F l o r e n c e</div>
+    <div id="webchat" role="main"></div>
+    <script>
+        (async function() {
+        const styleSet = window.WebChat.createStyleSet({
+          transcriptTerminatorBorderRadius: '25px',
+          bubbleBackground: 'rgba(255, 181, 229, 1)',
+          bubbleFromUserBackground: 'rgba(255, 172, 196, 0.69)',
+          backgroundColor: 'rgba(47, 12, 34, 1)',
+          webchatBorderColor: 'rgba(47, 12, 34, 1)',
+          webchatBorderRadius: '25px',
+          emojiSet: true,
+          hideUploadButton: true,
+          avatarBorderRadius: '25%',
+          bubbleBorderRadius: '25px',
+          bubbleFromUserBorderRadius: '25px',
+          sendBoxBackground: 'rgba(253, 239, 247, 1)',
+          sendBoxBorderRadius: '25px'
+        });
+
+        styleSet.textContent = Object.assign({}, styleSet.textContent, {
+          fontFamily: "'Comic Sans MS', 'Arial', sans-serif",
+          fontWeight: 'bold'
+        });
+
+        window.WebChat.renderWebChat(
+          {
+            directLine: window.WebChat.createDirectLine({ token: "nwW20cudJgE.-b9odyB1zqShS6qB7nRyQc5nmx2HDIqFB44YbHS2LGE"}),
+            styleSet,
+            styleOptions: {
+                botAvatarImage: './botimg.jpg',
+                botAvatarInitials: 'FN',
+                userAvatarInitials: 'U'
+            }
+          },
+          document.getElementById('webchat')
+        );
+
+        document.querySelector('#webchat > *').focus();
+      })().catch(err => console.error(err));
+    </script>
+    </script>
+</body>
+
+</html>
