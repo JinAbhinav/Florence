@@ -1,5 +1,5 @@
 # Florence
-[Florence](https://ramn25.github.io)
+Check out Florence now: [Florence](https://ramn25.github.io)
 
 Health bot Florence
 
