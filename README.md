@@ -1,38 +1,80 @@
-# Florence
-Check out Florence now: [Florence](https://ramn25.github.io)
+# Florence - AI-Powered Mental Health Assistant 💙
 
-# Health bot Florence
+Florence is an AI-driven chatbot designed to provide mental health support, specifically assisting veterans dealing with trauma. Built using **Amazon Azure**, it leverages advanced NLP techniques to offer empathetic and context-aware responses.
 
-This repository showcases an innovative healthcare chatbot designed to improve accessibility, awareness, and engagement in health and wellness. Built on Microsoft Azure's robust platform and powered by cutting-edge AI, this chatbot offers a range of features, including:
-Symptom checking: Guide users towards appropriate resources based on their symptoms.
-Health information: Answer questions about various health topics with accurate and reliable information.
-Medication management: Provide reminders and answer drug-related questions.
-Personalized support: Offer tailored advice and recommendations based on user needs.
-Easy access: Available on various platforms for convenient interaction.
+---
 
-Key benefits:
-Improved accessibility: Provides 24/7 information and support to all.
-Enhanced awareness: Empowers users to make informed health decisions.
-Increased engagement: Encourages proactive health management.
-Cost-effective: Offers a scalable and efficient solution for healthcare providers.
+## 🌟 Features
+- **Conversational AI**: Provides natural and supportive interactions for mental health assistance.
+- **Context-Aware Responses**: Uses NLP to understand user intent and deliver meaningful replies.
+- **Resource Recommendations**: Offers self-help strategies, crisis helplines, and therapy suggestions.
+- **Secure & Scalable**: Hosted on **Amazon Azure** to ensure reliability and data security.
+- **User-Friendly Interface**: Built with **HTML & CSS** for a seamless user experience.
 
-This project is open-source and welcomes contributions from developers, healthcare professionals, and anyone passionate about improving health outcomes through technology.
+---
 
-Project created by: Sentinels
+## 🚀 How It Works
+1. **User Interaction**: The chatbot engages with users, identifying their concerns based on conversational cues.
+2. **NLP Processing**: Florence processes input using AI-driven natural language understanding (NLU) models.
+3. **Response Generation**: The system provides personalized responses, advice, or redirects users to mental health resources.
+4. **Continuous Learning**: The chatbot improves over time with user interactions, enhancing support quality.
 
+---
 
-Team members:
+## 🛠 Installation & Setup
 
+### Prerequisites
+- Python 3.8+
+- pip
+- Virtual environment (recommended)
+- Amazon Azure account (for deployment)
 
-Ayush Mukherjee
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Florence.git
+cd Florence
 
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
-Abhinav U
+# Install dependencies
+pip install -r requirements.txt
+```
 
+---
 
-Ram Narayan
+## 🚀 Usage
 
+### Running the Chatbot Locally
+```bash
+python main.py
+```
 
-Aditi Roy
+### Deploying on Amazon Azure
+1. Set up an **Azure Web App**.
+2. Configure the **AI services (e.g., Azure Cognitive Services)**.
+3. Deploy the chatbot for online access.
 
+---
+
+## 🤝 Contributing
+We welcome contributions! Feel free to submit issues, feature requests, or pull requests.
+
+### Steps to Contribute
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-xyz`).
+3. Commit your changes (`git commit -m "Added feature xyz"`).
+4. Push to your fork and submit a PR!
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+For queries or collaborations, reach out via [your email] or open an issue on GitHub. 💙
 
