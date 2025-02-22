@@ -68,13 +68,4 @@ We welcome contributions! Feel free to submit issues, feature requests, or pull 
 3. Commit your changes (`git commit -m "Added feature xyz"`).
 4. Push to your fork and submit a PR!
 
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 Contact
-For queries or collaborations, reach out via [your email] or open an issue on GitHub. 💙
 
